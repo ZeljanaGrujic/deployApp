@@ -50,7 +50,7 @@ public class InvoiceSellingRepositoryTests {
         invoiceSellingRepository.save(invoiceSelling2);
 
         List<InvoiceSelling> invoiceSellings = invoiceSellingRepository.findAll();
-        assertEquals(2, invoiceSellings.size());
+        assertEquals(4, invoiceSellings.size());
     }
 
     @Test

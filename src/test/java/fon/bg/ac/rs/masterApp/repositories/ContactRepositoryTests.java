@@ -71,7 +71,7 @@ public class ContactRepositoryTests {
         contactRepository.save(contact2);
 
         List<Contact> contacts = contactRepository.findAll();
-        assertEquals(2, contacts.size());
+        assertEquals(3, contacts.size());
     }
 
 

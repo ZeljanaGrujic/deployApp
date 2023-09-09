@@ -6786,7 +6786,8 @@ ul.inbox-pagination li {
 
 .profile-widget-info{
 
-    background: #324c57 !important;
+   /* background: #324c57 !important;*/
+   background: #301934; !important
 
 }
 
@@ -6858,9 +6859,11 @@ ul.inbox-pagination li {
 
 .bio-graph-heading {
 
-    background: #263a4f;
+   /*  background: #263a4f;*/
+   background:#301934;
 
     color: #fff;
+ /*  color: #301934;*/
 
     text-align: center;
 
@@ -10060,3 +10063,8 @@ span.customSelect.changed {
     max-width: 1400px;
     margin: 0 auto;
 }*/
+
+.row .userProfile {
+
+color: #301934 !important
+}

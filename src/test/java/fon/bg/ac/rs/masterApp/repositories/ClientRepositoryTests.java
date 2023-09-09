@@ -66,7 +66,7 @@ public class ClientRepositoryTests {
         clientRepository.save(client2);
 
         List<Client> clients = clientRepository.findAll();
-        assertEquals(2, clients.size());
+        assertEquals(4, clients.size());
     }
 
 

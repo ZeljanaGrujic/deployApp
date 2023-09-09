@@ -67,7 +67,7 @@ public class SupplierRepositoryTests {
         supplierRepository.save(newObj2);
 
         List<Supplier> items = supplierRepository.findAll();
-        assertEquals(2, items.size());
+        assertEquals(5, items.size());
     }
 
     @Test

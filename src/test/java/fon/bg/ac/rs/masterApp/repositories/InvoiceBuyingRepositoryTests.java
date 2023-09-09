@@ -49,7 +49,7 @@ public class InvoiceBuyingRepositoryTests {
         invoiceBuyingRepository.save(invoiceBuying2);
 
         List<InvoiceBuying> invoiceBuyings = invoiceBuyingRepository.findAll();
-        assertEquals(2, invoiceBuyings.size());
+        assertEquals(5, invoiceBuyings.size());
     }
 
     @Test

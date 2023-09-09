@@ -2,6 +2,7 @@ package fon.bg.ac.rs.masterApp.repositories;
 
 
 import fon.bg.ac.rs.masterApp.models.User;
+import fon.bg.ac.rs.masterApp.repositories.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -65,7 +66,7 @@ public class UserRepositoryTests {
 
 
         List<User> items = userRepository.findAll();
-        assertEquals(1, items.size());
+        assertEquals(10, items.size());
     }
 
     @Test

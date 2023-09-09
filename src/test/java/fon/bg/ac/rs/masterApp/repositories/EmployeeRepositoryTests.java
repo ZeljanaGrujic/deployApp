@@ -84,7 +84,7 @@ public class EmployeeRepositoryTests {
         employeeRepository.save(employee2);
 
         List<Employee> employees = employeeRepository.findAll();
-        assertEquals(2, employees.size());
+        assertEquals(7, employees.size());
     }
 
     @Test

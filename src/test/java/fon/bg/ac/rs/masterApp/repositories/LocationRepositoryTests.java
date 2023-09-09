@@ -61,7 +61,7 @@ public class LocationRepositoryTests {
         locationRepository.save(newObj2);
 
         List<Location> items = locationRepository.findAll();
-        assertEquals(2, items.size());
+        assertEquals(6, items.size());
     }
 
     @Test

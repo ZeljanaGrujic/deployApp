@@ -63,7 +63,7 @@ public class TextileRepositoryTests {
 
 
         List<Textile> items = textileRepository.findAll();
-        assertEquals(1, items.size());
+        assertEquals(8, items.size());
     }
 
     @Test

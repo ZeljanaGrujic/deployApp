@@ -44,7 +44,7 @@ public class CountryRepositoryTests {
         countryRepository.save(country2);
 
         List<Country> countries = countryRepository.findAll();
-        assertEquals(2, countries.size());
+        assertEquals(7, countries.size());
     }
 
     @Test

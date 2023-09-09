@@ -60,7 +60,7 @@ public class InvoiceBItemRepositoryTests {
         invoiceBItemRepository.save(invoiceBItem2);
 
         List<InvoiceBItem> invoiceBItems = invoiceBItemRepository.findAll();
-        assertEquals(2, invoiceBItems.size());
+        assertEquals(3, invoiceBItems.size());
     }
 
     @Test

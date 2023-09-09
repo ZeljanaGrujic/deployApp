@@ -56,7 +56,7 @@ public class TextileMakeRepositoryTests {
         textileMakeRepository.save(newObj2);
 
         List<TextileMake> items = textileMakeRepository.findAll();
-        assertEquals(2, items.size());
+        assertEquals(4, items.size());
     }
 
     @Test

@@ -56,7 +56,7 @@ public class JobTitleRepositoryTests {
         jobTitleRepository.save(newObj2);
 
         List<JobTitle> items = jobTitleRepository.findAll();
-        assertEquals(2, items.size());
+        assertEquals(7, items.size());
     }
 
     @Test

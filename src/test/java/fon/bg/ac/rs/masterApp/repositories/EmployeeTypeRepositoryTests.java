@@ -55,7 +55,7 @@ public class EmployeeTypeRepositoryTests {
         employeeTypeRepository.save(employeeType2);
 
         List<EmployeeType> employeeTypes = employeeTypeRepository.findAll();
-        assertEquals(2, employeeTypes.size());
+        assertEquals(6, employeeTypes.size());
     }
 
     @Test

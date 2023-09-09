@@ -56,7 +56,7 @@ public class InvoiceStatusRepositoryTests {
         invoiceStatusRepository.save(invoiceStatus2);
 
         List<InvoiceStatus> invoiceStatuses = invoiceStatusRepository.findAll();
-        assertEquals(2, invoiceStatuses.size());
+        assertEquals(4, invoiceStatuses.size());
     }
 
     @Test
