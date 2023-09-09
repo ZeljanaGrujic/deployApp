@@ -14,18 +14,18 @@ public class ApplicationController {
         return "index";
     }
 
-//    @GetMapping("/login")
-//    public String login() {
-//        return "login";
-//    }
-//
-//    @GetMapping("/logout")
-//    public String logout() {
-//        return "login";
-//    }
-//
-//    @GetMapping("/register")
-//    public String register() {
-//        return "Register";
-//    }
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
+
+    @GetMapping("/logout")
+    public String logout() {
+        return "login";
+    }
+
+    @GetMapping("/register")
+    public String register() {
+        return "Register";
+    }
 }

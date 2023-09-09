@@ -21,8 +21,8 @@
 }
 
 .chats .by-me .chat-meta{
-	font-size: 11px;
-	color: #999;
+	font-size: 12px;
+	color: #333333 !important;
 }
 
 .chats .by-me .chat-content{
@@ -70,8 +70,8 @@
 }
 
 .chats .by-other .chat-meta{
-	font-size: 11px;
-	color: #999;
+	font-size: 12px;
+	color: #333333 !important;
 }
 
 .chats .by-other .chat-content{

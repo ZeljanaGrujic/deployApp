@@ -7,7 +7,7 @@
 /* Import fonts */
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&family=Lobster+Two&family=Roboto:ital,wght@1,300&family=Ysabeau+Infant:wght@300&display=swap');
 @import url(line-icons.css);
 
 
@@ -18,13 +18,13 @@ body {
 
     background: #eeeeee;
 
-    font-family: 'Lato', sans-serif;
+    font-family: 'Amatic SC', cursive !important;
 
     padding: 0px !important;
 
     margin: 0px !important;
 
-    font-size:14px !important;
+    font-size:18px !important;
 
 }
 
@@ -516,7 +516,7 @@ table tr th { color: #688a7e;}
 
     position: fixed;
 
-    background: #394a59;
+    background: #301934;
 
 }
 
@@ -684,7 +684,7 @@ ul.sidebar-menu li a{
 
     padding: 15px 0 15px 10px;
 
-    font-size: 16px;
+    font-size: 18px;
 
     font-weight: 300;
 
@@ -1046,22 +1046,24 @@ ul.sidebar-menu li.active a i {
 
 }
 
+.kontrolna-tabla{
 
+font-family: 'Amatic SC', cursive !important;
+}
 
 a.logo {
-
-    font-size: 22px;
-
+    font-size: 26px;
     font-weight: 300;
-
     color: #fed189;
-
     float: left;
-
     margin-top: 15px;
-
     text-transform: uppercase;
-
+    /*font-family: 'VašFont', sans-serif; /* Zamijenite 'VašFont' sa željenim fontom */
+    font-family: 'Amatic SC', cursive !important;
+   /* font-family: 'Roboto', sans-serif; */
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -1600,7 +1602,7 @@ div[data-role="editor-toolbar"] {
 
     border-bottom: 1px solid #EBEBEB !important;
 
-    font-size: 14px;
+    font-size: 17px;
 
     list-style: none;
 
@@ -1654,7 +1656,7 @@ div[data-role="editor-toolbar"] {
 
 .top-nav .username {
 
-    font-size: 13px;
+    font-size: 15px;
 
     color: #bdbdbd;
 
@@ -1824,6 +1826,49 @@ div[data-role="editor-toolbar"] {
 
 }
 
+.info-box {
+
+  transition: transform 0.2s;
+
+
+  transform: scale(1);
+}
+
+.info-box:hover {
+
+  transform: scale(1.1);
+}
+
+/*
+.bgHover {
+
+  transition: transform 0.2s;
+
+
+  transform: scale(1);
+}
+
+.bgHover:hover {
+
+  transform: scale(1.1);
+} */
+
+
+.portlets {
+
+  transition: transform 0.2s;
+
+
+  transform: scale(1);
+}
+
+.portlets:hover {
+
+  transform: scale(1.1);
+}
+
+
+
 .info-box i {
 
   display: block;
@@ -1852,7 +1897,7 @@ div[data-role="editor-toolbar"] {
 
   margin-top: 20px;
 
-  font-size: 34px;
+  font-size: 36px;
 
   font-weight: 700;
 
@@ -1860,7 +1905,7 @@ div[data-role="editor-toolbar"] {
 
 .info-box .title {
 
-  font-size: 12px;
+  font-size: 22px;
 
   text-transform: uppercase;
 
@@ -1956,9 +2001,9 @@ div[data-role="editor-toolbar"] {
 
   color : #fff;
 
-  background : #57889c;
+background : #cb99c9;
 
-  background-color : #57889c;
+  background-color : #cb99c9;
 
 }
 
@@ -1966,9 +2011,9 @@ div[data-role="editor-toolbar"] {
 
   color : #fff;
 
-  background : #26c281;
+   background : #ffc40c;
 
-  background-color : #26c281;
+    background-color : #ffc40c;
 
 }
 
@@ -2056,9 +2101,9 @@ div[data-role="editor-toolbar"] {
 
   color : #fff;
 
-  background : #d1b993;
+  background : #26c281;
 
-  background-color : #d1b993;
+  background-color : #26c281;
 
 }
 
@@ -2076,9 +2121,9 @@ div[data-role="editor-toolbar"] {
 
   color : #fff;
 
-  background : #1a2732;
+   background : #301934;
 
-  background-color : #1a2732;
+    background-color : #301934;
 
 }
 
@@ -2536,9 +2581,9 @@ div[data-role="editor-toolbar"] {
 
 .chats .by-me .chat-meta{
 
-	font-size: 11px;
+	font-size: 14px;
 
-	color: #999;
+	color: ##100f0f !important;
 
 }
 
@@ -2558,7 +2603,9 @@ div[data-role="editor-toolbar"] {
 
 	border-radius: 5px;
 
-	font-size: 13px;
+	font-size: 15px;
+
+    color:##100f0f !important
 
 }
 
@@ -2634,9 +2681,9 @@ div[data-role="editor-toolbar"] {
 
 .chats .by-other .chat-meta{
 
-	font-size: 11px;
+	font-size: 14px;
 
-	color: #999;
+	color: ##100f0f !important;
 
 }
 
@@ -2656,7 +2703,8 @@ div[data-role="editor-toolbar"] {
 
 	border-radius: 5px;
 
-	font-size: 13px;
+	font-size: 15px;
+	color:##100f0f !important
 
 }
 
@@ -6738,7 +6786,8 @@ ul.inbox-pagination li {
 
 .profile-widget-info{
 
-    background: #324c57 !important;
+   /* background: #324c57 !important;*/
+   background: #301934; !important
 
 }
 
@@ -6810,9 +6859,11 @@ ul.inbox-pagination li {
 
 .bio-graph-heading {
 
-    background: #263a4f;
+   /*  background: #263a4f;*/
+   background:#301934;
 
     color: #fff;
+ /*  color: #301934;*/
 
     text-align: center;
 
@@ -9902,4 +9953,118 @@ span.customSelect.changed {
 
 #sendmessage.show, #errormessage.show, .show {
 	display:block;
+}
+
+
+/*ZA GALERIJU SLIKA */
+.gallery-panel {
+  /* Ostali stilovi */
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery {
+  display: flex;
+  overflow: hidden;
+}
+
+.gallery-slide {
+  flex: 0 0 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery-prev,
+.gallery-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+}
+
+.gallery-prev {
+  left: 0;
+}
+
+.gallery-next {
+  right: 0;
+}
+
+/*ZA USER TABELU DROPDOWN*/
+
+/*
+.table {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.table:hover {
+    max-width: 1300px;
+}
+
+*/
+
+.table {
+
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.table tr {
+    transition: transform 0.3s ease-in-out;
+}
+
+.table tr:hover {
+    transform: scale(1.04); /* Povećava red za 4% prilikom hoverovanja */
+}
+
+
+
+.table-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#toggleButton {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.table-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    margin-top: 20px; /* Dodajte razmak iznad dugmeta */
+}
+/*
+.table-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}*/
+
+.row .userProfile {
+
+color: #301934 !important
 }

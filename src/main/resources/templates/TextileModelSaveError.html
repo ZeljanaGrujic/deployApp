@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <!-- ... -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>
+    body {
+        background-color: #f3f3f3;
+        font-family: Arial, sans-serif;
+    }
+
+    .page-404 {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .text-404 {
+        font-size: 100px;
+        color: red;
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+        transform: skew(-10deg, 10deg);
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 36px;
+        color: #333;
+    }
+
+    p {
+        font-size: 20px;
+        color: #666;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin: 0 10px;
+    }
+
+    .btn-primary {
+        background-color: red;
+        border-color: red;
+        color: white;
+    }
+
+    .btn-info {
+        background-color: red;
+        border-color: red;
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    ul li::before {
+        content: "\F138";
+        font-family: "FontAwesome";
+        margin-right: 10px;
+        color: #333;
+    }
+    </style>
+  <!-- ... -->
+</head>
+<body>
+<div class="page-404">
+  <p class="text-404"><i class="fa fa-exclamation-circle text-danger"></i> GRESKA!</p>
+  <h2>Ahhhh! <i class="fa fa-frown-o text-danger"></i></h2>
+  <p>Nesto nije kako treba, ili trazena stranica jos uvek ne postoji! <i class="fa fa-exclamation-triangle text-danger"></i></p>
+  <p>Gde ste mozda pogresili:</p>
+  <ul>
+    <li><strong><i class="fa fa-warning text-danger"></i> Ne mozete sacuvati Model proizvoda?</strong></li>
+    <li><strong><i class="fa fa-info-circle text-info"></i> Kako ovo da resimo?</strong>Proverite da li ste uneli sve zahtevane podatke!</li>
+  </ul>
+  <div class="btn-container">
+    <a th:href="@{/login}" class="btn btn-primary"><i class="fa fa-home"></i> Povratak na pocetnu stranicu</a>
+    <a th:href="@{/textileModels}" class="btn btn-info"><i class="fa fa-arrow-circle-left"></i> Povratak na stranicu za rad sa Modelima proizvoda</a>
+  </div>
+</div>
+<!-- ... -->
+</body>
+</html>
+
+
